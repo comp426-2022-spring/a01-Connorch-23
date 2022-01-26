@@ -4,12 +4,9 @@
   "description": "This package contains a very simple web server that takes one argument for port and then serves index.html in the directory.",
   "main": "index.js",
   "scripts": {
-    "test": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/comp426-2022-spring/a01-Connorch-23.git"
-  },
+    "test": "node server.js",
+    "start": "node server.js"
+    },
   "keywords": [
     "web",
     "server",
@@ -20,12 +17,5 @@
     "http"
   ],
   "author": "Connor Hitchings",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/comp426-2022-spring/a01-Connorch-23/issues"
-  },
-  "homepage": "https://github.com/comp426-2022-spring/a01-Connorch-23#readme",
-  "dependencies": {
-    "minimist": "^1.2.5"
-  }
+  "license": "GPL-3.0-or-later"
 }
